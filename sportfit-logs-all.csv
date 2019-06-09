@@ -1,0 +1,69 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1560097780610,91,register form,200,OK,registration-login-actions-logout 1-1,text,true,,54948,375,1,1,http://127.0.0.1:8080/register,90,0,0
+1560097780706,68,register GET,200,OK,registration-login-actions-logout 1-1,text,true,,21644,876,1,1,http://127.0.0.1:8080/register,68,0,0
+1560097781115,1145,register form,200,OK,registration-login-actions-logout 1-2,text,true,,54970,375,2,2,http://127.0.0.1:8080/register,1144,0,1
+1560097780775,1552,register POST - 1  - 1,200,OK,registration-login-actions-logout 1-1,text,true,,56858,2102,2,2,http://127.0.0.1:8080/verification/send,1409,0,0
+1560097780775,1410,register POST - 1  - 1-0,302,Found,registration-login-actions-logout 1-1,text,true,,1371,1127,2,2,http://127.0.0.1:8080/register,1409,0,0
+1560097782185,142,register POST - 1  - 1-1,200,OK,registration-login-actions-logout 1-1,text,true,,55487,975,2,2,http://127.0.0.1:8080/verification/send,142,0,1
+1560097782261,130,register GET,200,OK,registration-login-actions-logout 1-2,text,true,,21642,882,2,2,http://127.0.0.1:8080/register,129,0,1
+1560097782328,131,verification send,200,OK,registration-login-actions-logout 1-1,text,true,,54631,922,2,2,http://127.0.0.1:8080/verification/send,130,0,0
+1560097782459,85,JDBC Request - 1 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,9,0,2,2,null,85,0,78
+1560097782545,1637,login GET,200,OK,registration-login-actions-logout 1-1,text,true,,54932,900,2,2,http://127.0.0.1:8080/login,1637,0,0
+1560097782392,1865,register POST - 2  - 2,200,OK,registration-login-actions-logout 1-2,text,true,,56853,2098,2,2,http://127.0.0.1:8080/verification/send,1714,0,0
+1560097782392,1715,register POST - 2  - 2-0,302,Found,registration-login-actions-logout 1-2,text,true,,1369,1125,2,2,http://127.0.0.1:8080/register,1714,0,0
+1560097784108,149,register POST - 2  - 2-1,200,OK,registration-login-actions-logout 1-2,text,true,,55484,973,2,2,http://127.0.0.1:8080/verification/send,148,0,0
+1560097784258,219,verification send,200,OK,registration-login-actions-logout 1-2,text,true,,54667,924,2,2,http://127.0.0.1:8080/verification/send,218,0,0
+1560097784478,4,JDBC Request - 2 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,9,0,2,2,null,4,0,0
+1560097784183,385,login POST - 1 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,90941,2456,2,2,http://127.0.0.1:8080/login/success,218,0,1
+1560097784183,219,login POST - 1 - 1-0,302,Found,registration-login-actions-logout 1-1,text,true,,1881,1100,2,2,http://127.0.0.1:8080/login,218,0,1
+1560097784403,165,login POST - 1 - 1-1,200,OK,registration-login-actions-logout 1-1,text,true,,89060,1356,2,2,http://127.0.0.1:8080/login/success,163,0,0
+1560097784483,163,login GET,200,OK,registration-login-actions-logout 1-2,text,true,,54955,904,2,2,http://127.0.0.1:8080/login,162,0,0
+1560097784569,172,login success - 1 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,89057,1369,2,2,http://127.0.0.1:8080/login/success,171,0,0
+1560097784742,241,home,200,OK,registration-login-actions-logout 1-1,text,true,,199014,1358,2,2,http://127.0.0.1:8080/,241,0,1
+1560097784647,422,login POST - 2 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,90985,2476,2,2,http://127.0.0.1:8080/login/success,232,0,0
+1560097784647,232,login POST - 2 - 2-0,302,Found,registration-login-actions-logout 1-2,text,true,,1893,1108,2,2,http://127.0.0.1:8080/login,232,0,0
+1560097784879,190,login POST - 2 - 2-1,200,OK,registration-login-actions-logout 1-2,text,true,,89092,1368,2,2,http://127.0.0.1:8080/login/success,189,0,1
+1560097785070,161,login success - 2 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,89094,1375,2,2,http://127.0.0.1:8080/login/success,160,0,0
+1560097784984,330,logout - 1 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,128819,2634,2,2,http://127.0.0.1:8080,161,0,1
+1560097784984,162,logout - 1 - 1-0,302,Found,registration-login-actions-logout 1-1,text,true,,1551,1481,2,2,http://127.0.0.1:8080/logout,161,0,1
+1560097785146,168,logout - 1 - 1-1,200,OK,registration-login-actions-logout 1-1,text,true,,127268,1153,2,2,http://127.0.0.1:8080,167,0,0
+1560097785314,0,Debug Sampler,200,OK,registration-login-actions-logout 1-1,text,true,,1139,0,2,2,null,0,0,0
+1560097785232,181,home,200,OK,registration-login-actions-logout 1-2,text,true,,199048,1366,2,2,http://127.0.0.1:8080/,180,0,0
+1560097785315,166,register form,200,OK,registration-login-actions-logout 1-1,text,true,,54980,375,2,2,http://127.0.0.1:8080/register,165,0,0
+1560097785482,159,register GET,200,OK,registration-login-actions-logout 1-1,text,true,,21650,886,2,2,http://127.0.0.1:8080/register,159,0,0
+1560097785414,321,logout - 2 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,128812,2642,2,2,http://127.0.0.1:8080,150,0,0
+1560097785414,150,logout - 2 - 2-0,302,Found,registration-login-actions-logout 1-2,text,true,,1551,1489,2,2,http://127.0.0.1:8080/logout,150,0,0
+1560097785565,170,logout - 2 - 2-1,200,OK,registration-login-actions-logout 1-2,text,true,,127261,1153,2,2,http://127.0.0.1:8080,169,0,0
+1560097785736,0,Debug Sampler,200,OK,registration-login-actions-logout 1-2,text,true,,1139,0,2,2,null,0,0,0
+1560097785741,1499,register form,200,OK,registration-login-actions-logout 1-2,text,true,,54959,375,2,2,http://127.0.0.1:8080/register,1498,0,0
+1560097785642,1669,register POST - 3  - 1,200,OK,registration-login-actions-logout 1-1,text,true,,56854,2104,2,2,http://127.0.0.1:8080/verification/send,1514,0,0
+1560097785642,1516,register POST - 3  - 1-0,302,Found,registration-login-actions-logout 1-1,text,true,,1367,1133,2,2,http://127.0.0.1:8080/register,1514,0,0
+1560097787158,153,register POST - 3  - 1-1,200,OK,registration-login-actions-logout 1-1,text,true,,55487,971,2,2,http://127.0.0.1:8080/verification/send,153,0,1
+1560097787241,139,register GET,200,OK,registration-login-actions-logout 1-2,text,true,,21644,884,2,2,http://127.0.0.1:8080/register,138,0,0
+1560097787312,139,verification send,200,OK,registration-login-actions-logout 1-1,text,true,,54672,928,2,2,http://127.0.0.1:8080/verification/send,138,0,0
+1560097787451,6,JDBC Request - 3 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,9,0,2,2,null,6,0,0
+1560097787458,1510,login GET,200,OK,registration-login-actions-logout 1-1,text,true,,54935,904,2,2,http://127.0.0.1:8080/login,1509,0,0
+1560097787380,1659,register POST - 4  - 2,200,OK,registration-login-actions-logout 1-2,text,true,,56879,2104,2,2,http://127.0.0.1:8080/verification/send,1510,0,0
+1560097787380,1511,register POST - 4  - 2-0,302,Found,registration-login-actions-logout 1-2,text,true,,1373,1127,2,2,http://127.0.0.1:8080/register,1510,0,0
+1560097788892,147,register POST - 4  - 2-1,200,OK,registration-login-actions-logout 1-2,text,true,,55506,977,2,2,http://127.0.0.1:8080/verification/send,146,0,0
+1560097789040,207,verification send,200,OK,registration-login-actions-logout 1-2,text,true,,54669,924,2,2,http://127.0.0.1:8080/verification/send,206,0,0
+1560097789247,5,JDBC Request - 4 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,9,0,2,2,null,5,0,0
+1560097788969,364,login POST - 3 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,90961,2464,2,2,http://127.0.0.1:8080/login/success,204,0,0
+1560097788969,205,login POST - 3 - 1-0,302,Found,registration-login-actions-logout 1-1,text,true,,1889,1100,2,2,http://127.0.0.1:8080/login,204,0,0
+1560097789174,159,login POST - 3 - 1-1,200,OK,registration-login-actions-logout 1-1,text,true,,89072,1364,2,2,http://127.0.0.1:8080/login/success,158,0,1
+1560097789252,170,login GET,200,OK,registration-login-actions-logout 1-2,text,true,,54953,906,2,2,http://127.0.0.1:8080/login,169,0,1
+1560097789335,184,login success - 3 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,89076,1371,2,2,http://127.0.0.1:8080/login/success,183,0,0
+1560097789520,255,home,200,OK,registration-login-actions-logout 1-1,text,true,,199015,1362,2,2,http://127.0.0.1:8080/,254,0,0
+1560097789424,444,login POST - 4 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,90969,2472,2,2,http://127.0.0.1:8080/login/success,240,0,0
+1560097789424,241,login POST - 4 - 2-0,302,Found,registration-login-actions-logout 1-2,text,true,,1895,1102,2,2,http://127.0.0.1:8080/login,240,0,0
+1560097789666,202,login POST - 4 - 2-1,200,OK,registration-login-actions-logout 1-2,text,true,,89074,1370,2,2,http://127.0.0.1:8080/login/success,201,0,0
+1560097789870,183,login success - 4 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,89068,1367,2,2,http://127.0.0.1:8080/login/success,183,0,1
+1560097789775,369,logout - 3 - 1,200,OK,registration-login-actions-logout 1-1,text,true,,128830,2642,2,2,http://127.0.0.1:8080,179,0,1
+1560097789775,180,logout - 3 - 1-0,302,Found,registration-login-actions-logout 1-1,text,true,,1553,1487,2,2,http://127.0.0.1:8080/logout,179,0,1
+1560097789955,189,logout - 3 - 1-1,200,OK,registration-login-actions-logout 1-1,text,true,,127277,1155,2,2,http://127.0.0.1:8080,188,0,0
+1560097790144,1,Debug Sampler,200,OK,registration-login-actions-logout 1-1,text,true,,1139,0,2,2,null,0,0,0
+1560097790055,191,home,200,OK,registration-login-actions-logout 1-2,text,true,,199022,1364,1,1,http://127.0.0.1:8080/,191,0,0
+1560097790247,169,logout - 4 - 2,200,OK,registration-login-actions-logout 1-2,text,true,,128862,2648,1,1,http://127.0.0.1:8080,84,0,0
+1560097790247,84,logout - 4 - 2-0,302,Found,registration-login-actions-logout 1-2,text,true,,1561,1485,1,1,http://127.0.0.1:8080/logout,84,0,0
+1560097790332,84,logout - 4 - 2-1,200,OK,registration-login-actions-logout 1-2,text,true,,127301,1163,1,1,http://127.0.0.1:8080,83,0,0
+1560097790416,0,Debug Sampler,200,OK,registration-login-actions-logout 1-2,text,true,,1139,0,1,1,null,0,0,0
